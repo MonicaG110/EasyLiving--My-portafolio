@@ -1,0 +1,138 @@
+/*
+going from top right
+
+top:
+rgb(209,209,209)
+rgb(145,182,183)
+rgb(68,128,132)
+
+bottom:
+rgb(176,145,57)
+rgb(3,44,73)
+rgb(38,37,34)
+*/
+
+
+body{
+	background: white;
+
+}
+
+.arrowCon{
+	height: 400px;
+	width: 30%;
+	position: relative;
+	display: inline;
+	bottom: 350px;
+	left: 40px;
+}
+
+.arrow{
+	font-size: 3em;
+	color: rgb(3,44,73);
+	transition: font-size .5s;
+}
+
+.arrow:hover{
+	font-size: 3.1em;
+}
+
+.signup{
+	font-family: 'Raleway', sans-serif;
+	min-height: 300px;
+	width: 50%;
+	margin: 50px auto;
+	background: rgb(145,182,183);
+	border-top:5px outset rgb(68,128,132);
+	border-bottom:5px inset rgb(68,128,132);
+	border-left:1px outset rgb(68,128,132);
+	border-right:1px outset rgb(68,128,132);
+	border-radius: 20px; 
+	box-shadow: 10px 10px 20px #666666;
+}
+
+
+
+.signup-form{
+    width: 80%;
+	margin: 50px auto;
+    color: rgb(38,37,34);
+    text-align: center;
+}
+
+
+
+.userType{
+	width: 50%;
+	margin-top: 10px;
+	padding-left: 10px;
+	border-radius: 2px;
+	background: white;
+	border: 2px inset rgba(68,128,132,.5);
+	border-radius: 5px;
+	height: 25px;
+	color: black;
+	font-size: 1.1em;
+	transition: width .7s ease;
+}
+
+
+.userType:active{
+	width: 55%;
+}
+
+.userType:hover{
+	width: 55%;
+}
+
+.accountType{
+	font-size: 2em;
+
+}
+
+.accountBtn{
+	position: relative;
+	bottom: 8px;
+}
+
+#inputBtn button{
+	border: none;
+	font-weight: lighter;
+	border-radius: 10px;
+	height: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 15px;
+	font-size: 1.1em;
+  	color: white;
+	background: rgb(68,128,132);
+	font-family: 'Raleway', sans-serif;
+	transition: background .7s ease;
+}
+
+#inputBtn button:hover{
+	background:rgb(176,145,57);
+}
+/**************
+QUESTIONAIRE
+********/
+form.userprofile-form{
+	height: 800px;
+    width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+}
+
+.genderQ{
+	top: 0px;
+	background: red;
+}
+
+.genderQ:active{
+	top: -50px;
+}
+
+
+
+

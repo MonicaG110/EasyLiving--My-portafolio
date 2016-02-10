@@ -1,0 +1,167 @@
+body{
+	margin: 0px;
+    font-family: 'Nova Round', cursive;
+}
+
+html{
+	background: rgb(209,209,209);
+}
+
+/***********
+DetRoomNav
+************/
+
+.detailRoomNav{
+    background: rgb(145,182,183);
+    color: rgb(38,37,34);
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgb(38,37,34);
+    height: 50px;
+    padding-top: 10px;
+
+}
+
+.detailNav{
+	list-style: none;
+    font-size: 25px;
+    display: inline;
+    width: 100%;
+}
+
+.detailNav li{
+	display: inline;
+
+}
+
+.detailNav a{
+	padding-left: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(38,37,34);
+}
+
+
+.detailNav a:hover{
+	color:rgb(68,128,132);
+}
+
+.logo{
+    font-size: 25px;
+    padding-right:140px;
+}
+
+
+
+/************
+content
+**************/
+.DetImg{
+	width: 37%;
+	margin: 0 auto;
+    padding-top: 60px;
+
+
+}
+
+.DetImg img{
+	height: 400px;
+	width: 450px;
+	margin: 0 auto;
+   
+
+}
+
+img{
+    border-top: 2.0px solid black;
+    border-right:2.0px solid black;
+    border-left:2.0px solid black;
+    border-bottom: 2.0px solid black;
+}
+.roomPrice{
+	font-weight: bold;
+	font-size: 2em;
+	display: inline;
+
+}
+
+.stripe{
+	display: inline;
+	float: right;
+}
+
+.RoomInfo{
+	margin-top: 30px;
+	width: 28.125em;
+
+}
+
+.SeeListingCon{
+	width: 30%;
+	margin-left: 465px;
+	padding: 20px;
+	top:0px;
+    transition:top .8s ease;
+}
+
+
+.SeeListing{
+    width: 20%;
+    margin: 30px auto;
+    border: none;
+    font-size: 2em;
+    background: rgb(68,128,132);
+    color: white;
+    box-shadow: 0px 10px 25px lightgrey;
+    border-radius: 5px;
+
+}
+
+.SeeListingCon:hover{
+	top: 10px;
+}
+
+#disqus_thread{
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*********************
+FOOTER
+*********************/
+
+
+
+#footer{
+    background:rgb(28,27,27);
+    width: 100%;
+    height: 80px;
+    position: relative;
+    text-align: center;
+}
+
+/*--logos--*/
+
+
+#footer p{
+    display: inline-block;
+    color:rgb(68,128,132);
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+}
+
+#footer p:hover{
+color: rgb(176,145,57);
+}
+
+#footer a i{
+    margin: 10px auto;
+    color: rgb(68,128,132);
+    font-size: 2em;
+    padding-left: 25px;
+    position: relative;
+    top: 15px;
+}
+
+#footer a i:hover{
+   color: rgb(176,145,57);

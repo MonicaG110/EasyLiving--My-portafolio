@@ -1,0 +1,253 @@
+
+html{
+    background: rgb(209,209,209);
+}
+
+
+body{
+    margin: 0px;
+    font-family: 'Nova Round', cursive;
+}
+
+
+
+
+/*************
+NAVIGATION
+****************/
+.googleRoomNav{
+    background: rgb(145,182,183);
+    color: rgb(38,37,34);
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgb(38,37,34);
+    height: 50px;
+    padding-top: 10px;
+}
+
+.googleNav{
+    list-style: none;
+    font-size: 25px;
+    display: inline;
+    width: 100%;	
+    
+}
+
+.googleNav li{
+	display: inline;
+
+}
+
+
+.googleNav a{
+    margin: 0 auto;
+    padding-left: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(38,37,34);
+}
+
+.googleNav a:hover{
+    color:rgb(68,128,132);
+}
+
+.logo{
+    font-size: 25px;
+    padding-right:140px;
+}
+
+
+
+/*******************
+DRAW MAP
+*****************/
+.Maps{
+	width: 90%;
+}
+
+
+.topMap{
+	display: block;
+	margin:50px auto;
+	width: 80%;
+}
+
+
+
+
+
+.googleDes{
+
+	color: white;
+    padding: 20px 5px;
+    background: rgba(0,0,0,.6);
+    font-size: 1.5em;
+    left: 115px;
+    margin: 10px 0px;
+	text-align: center;
+    display: block;
+
+ 
+}
+
+
+#drawmap {
+    height: 400px;
+    width: 600px;
+	margin: 20px auto;
+    display: block;
+    position: relative;
+
+}
+
+.arrowCon{
+	height: 50px;
+	width:40px;
+	bottom: 250px;
+
+    right: 85px;
+    position: absolute;
+	
+}
+
+
+.arrow{
+    float: right;
+
+    color: rgb(68,128,132);
+
+    font-size: 2.5em;
+    transition: color 1s, font-size 1s;
+   
+}
+
+.arrow:hover{
+	color: rgb(176,145,57);
+	font-size: 2.7em;
+}
+
+
+/*******************
+MARKER MAP
+*****************/
+
+.map2{
+	margin:100px auto;
+	width: 80%;
+}
+
+
+
+.goolgeDesTwo{
+    color: white;
+    padding: 20px 5px;
+    background: rgba(0,0,0,.6);
+    font-size: 1.5em;
+    left: 115px;
+    margin: 10px 0px;
+    text-align: center;
+    display: block;
+
+
+}
+
+#map {
+    height: 400px;
+    width: 700px;
+	margin: 40px auto;
+    display: block;
+    position: relative;
+}
+
+
+
+
+
+/*******************
+INFO BOX
+*****************/
+.MapDescription{
+	width: 100%;
+	height: 40px;
+	background: rgba(0,0,0,.7);
+	padding-bottom: 50px;
+	color: white;
+	text-align: justify;
+	line-height: 30px;
+	display: block;
+    transition: color 1s, background 1s;
+}
+
+.MapDescription:hover{
+    color:  rgb(145,182,183);
+    background: rgba(0,0,0,1);
+}
+
+
+.googleDescription{
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+	line-height: 200%;
+	width: 100%;
+	height: 30px;
+
+}
+
+
+.housePre{
+	height: 350px;
+	width: 400px;
+	background: url('http://weknowyourdreams.com/images/bedroom/bedroom-01.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+
+
+/******************
+FOOTER
+***********************/
+
+
+#footer{
+    background:rgb(28,27,27);
+    width: 100%;
+    height: 80px;
+    position: relative;
+    text-align: center;
+}
+
+
+#footer p{
+    display: inline-block;
+    color:rgb(68,128,132);
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+}
+
+/*--logos--*/
+
+#footer p:hover{
+color: rgb(176,145,57);
+}
+
+
+#footer a i{
+    margin: 10px auto;
+    color: rgb(68,128,132);
+    font-size: 2em;
+    padding-left: 25px;
+    position: relative;
+    top: 15px;
+    right:20px;
+
+}
+
+#footer a i:hover{
+    color: rgb(176,145,57);
+}
+
+
+
+
+
+

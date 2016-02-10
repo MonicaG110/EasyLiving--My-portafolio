@@ -1,0 +1,283 @@
+body{
+    font-family: 'Nova Round', cursive;
+}
+/*****************
+Main header
+***************/
+
+iframe{
+    min-width: 100%; !important;
+    min-height: 100%; !important;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+   }
+
+
+
+#background {
+    text-align: center;
+    color:#FFF;
+    width:100%;
+    height:500px;
+    margin: auto;
+    padding-top: 60px;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.trans-container{
+    background: rgba(250,250,250,.3);
+    width: 50%;
+    padding: 1% 0% 3% 0%;
+    margin: 0px auto;
+    position: relative;
+    color: black;
+    top: 8px;
+    box-shadow: 10px 10px 15px rgba(150,150,150,.4);
+}
+
+
+
+h1{
+    color: black;
+    position: relative;
+    margin: 80px auto;
+    width: 80%;
+}
+
+
+.signUp{
+    color:black;
+    float: right;
+    position: relative;
+    bottom: 45px;
+    right: 50px;
+    background:rgb(68,128,132);
+    border:1px solid black;
+    transition: background 1s ease,border 1s ease;
+}
+
+.signUp:hover{
+     background:  rgba(176,145,57,.6);
+     border: 1px solid rgb(176,145,57);
+}
+
+.signUp a{
+    color: black;
+    text-decoration: none;
+    font-size: .8em;
+    transition: font-size 1s ease;
+}
+
+.signUp a:hover{
+    
+    font-size: .9em;  
+}
+
+.loginBtn{
+    border: none;
+    border: 1px solid black;
+    background:rgb(68,128,132);
+    transition:background .7s ease,border 1s ease;
+}
+
+.loginBtn:hover{
+     background: rgba(176,145,57,.6);
+     border: 1px solid rgb(176,145,57);
+
+}
+
+.loginBtn a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 1em;
+    transition:color .7s ease,font-size 1s ease;
+}
+
+.loginBtn a:hover {
+    color: rgb(3,44,73);
+    font-size: 1.1em;
+
+}
+
+
+/******************
+GALLERY
+*******************/
+#gallery{
+    position: relative;
+    width: 90%;
+    margin: 150px auto;
+
+}
+
+#gallery p {
+    text-align: center;
+    width: 30%;
+    border-bottom: 2px solid black;
+    margin: 50px auto; 
+    font-size: 2em;
+    position: relative;
+    top: 15px;
+    padding-bottom: 10px;
+    padding-top: 85px;
+   
+
+}
+
+ul.photos{
+    padding: 0px;
+    margin: 60px auto;
+    width: 950px;
+ 
+}
+
+
+.photos li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.photos li img{
+    height: 200px;
+    width: 300px;
+    margin-right: 6px;
+    margin-top: 10px;
+    border-top: 2.0px solid black;
+    border-right:2.0px solid black;
+    border-left:2.0px solid black;
+    border-bottom: 2.0px solid black;
+}
+
+
+/******************
+CONTACT
+*******************/
+.contact-section{
+    width: 100%;
+    min-height: 550px;
+    background: rgb(54,52,52);
+}
+
+.center{
+    margin: 0px auto;
+    width: 80%;
+    min-height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.center input {
+    height: 40px;
+    width: 37.5%;
+    border-radius: 3px;
+    border: none;
+    display: inline;
+    background: rgb(153,153,153);
+    padding-left: 20px;
+    color: black;
+
+}
+
+
+.center input::-webkit-input-placeholder { /* Chrome */
+  color: #464041;
+  transition: opacity 1s ease-in-out;
+} 
+
+
+
+.center button{
+    border: none;
+    height: 3%;
+    width: 20%;
+    background: rgb(62,133,209);
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    border-radius: 50px;
+    padding: 2%;
+    font-weight: bold;
+    margin: 50px auto;
+    transition:background 1s ease;
+}
+
+.center button:hover{
+    background: rgb(41,106,191);
+}
+
+.contact{
+    font-size: 3em;
+    color: white;
+    position: relative;
+    top:20px;
+}
+
+.message{
+    position: inline-block;
+    width: 77%;
+    padding-left: 25px;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px auto;
+    background: rgb(153,153,153);
+}
+
+.message::-webkit-input-placeholder { /* Chrome */
+  color: #464041;
+} 
+
+/**********
+FOOTER
+***********/
+#footer{
+    background:rgb(28,27,27);
+    width: 100%;
+    height: 80px;
+    position: relative;
+    text-align: center;
+}
+
+/*--logos--*/
+
+
+#footer p{
+    display: inline-block;
+    color:rgb(68, 128, 132);
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+}
+#footer p:hover{
+color: rgb(176,145,57);
+}
+
+#footer a{
+    margin: 10px auto;
+    color:rgb(68, 128, 132);
+    font-size: 2em;
+    padding-left: 25px;
+    position: relative;
+    top: 15px;
+}
+
+#footer a:hover{
+    color: rgb(176,145,57);
+}
+
+
+
+
+
+
+
+
+
+
